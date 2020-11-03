@@ -1,0 +1,4 @@
+#!/bin/sh
+logger "Downloading Youtube channel will start shortly..."
+youtube-dl -x -i -o '%(title)s.%(ext)s' --download-archive /home/pi/youtube_channel/done.txt --audio-format mp3 -a /home/pi/youtube_channel/list.txt
+logger "Downloading Youtube channel finished successfully..."

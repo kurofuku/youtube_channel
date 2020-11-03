@@ -1,0 +1,4 @@
+#!/bin/sh
+logger "Upload Youtube channel mp3 will start shortly..."
+python3 /home/pi/youtube_channel/upload_youtube_channel_mp3.py
+logger "Upload Youtube channel mp3 finished successfully..."
